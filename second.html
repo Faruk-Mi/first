@@ -19,43 +19,60 @@
     <link rel="stylesheet" href="css/main.css" />
 
     <meta name="theme-color" content="#fafafa" />
+    <style>
+      h1 {
+        text-align: center;
+        background-color: cornflowerblue;
+        color: black;
+        padding: 10px;
+      }
+    </style>
   </head>
 
   <body>
     <!-- Add your site or application content here -->
     <header>
-      <h1>Second Page</h1>
-      <a href="/index.html">Go to first page</a>
+      <h1>SECOND PAGE</h1>
+      <a href="/index.html"><img src="img/home.png" width="100" /></a
+      ><br /><br />
     </header>
     <main>
       <form id="first-form">
-        <label for="name">Name:</label>
+        <strong for="name">Name:</strong>
         <input type="text" id="name" name="firstname" /><br />
-        <label for="surname">Surname:</label>
+        <strong for="surname">Surname:</strong>
         <input type="text" id="surname" name="lastname" /><br />
-        <label for="age">Age:</label>
+        <strong for="age">Age:</strong>
         <input type="number" id="age" name="age" /><br />
-        <label for="email">Enter your email:</label>
-        <input type="email" id="email" name="email" /><br />
+        <strong for="email">Enter your email:</strong>
+        <input type="email" id="email" name="email" /><br /><br />
 
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-        <label for="vehicle1"> I have a bike</label><br />
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-        <label for="vehicle2"> I have a car</label><br />
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
-        <label for="vehicle3"> I have a boat</label><br />
+        <strong>Favourite Color:</strong><br />
+        <input type="checkbox" id="color1" name="fcolor" value="blue" />
+        <label for="color1">Blue</label><br />
+        <input type="checkbox" id="color2" name="fcolor" value="black" />
+        <label for="color2">Black</label><br />
+        <input type="checkbox" id="color3" name="fcolor" value="green" />
+        <label for="color3">Green</label><br /><br />
 
+        <strong>Gender:</strong><br />
         <input type="radio" id="male" name="gender" value="male" />
-        <label for="male">Male</label><br />
+        <label for="male">Male</label>
         <input type="radio" id="female" name="gender" value="female" />
-        <label for="female">Female</label><br />
+        <label for="female">Female</label>
         <input type="radio" id="other" name="gender" value="other" />
-        <label for="other">Other</label><br />
-        <input
-          type="hidden"
-          name="hidden_field"
-          value="Value of hidden field"
-        />
+        <label for="other">Other</label><br /><br />
+
+        <strong>What kind of car do you drive:</strong><br />
+        <input type="radio" id="bmw" name="car" value="bmw" />
+        <label for="bmw">BMW</label>
+        <input type="radio" id="audi" name="car" value="audi" />
+        <label for="audi">Audi</label>
+        <input type="radio" id="toyota" name="car" value="toyota" />
+        <label for="toyota">Toyota</label><br /><br />
+
+        <strong>Your football team:</strong><br />
+        <input type="text" name="football_team" /><br /><br />
 
         <input type="submit" value="Submit" />
       </form>
