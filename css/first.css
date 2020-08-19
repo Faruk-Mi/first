@@ -1,0 +1,18 @@
+header {
+  text-align: center;
+  background-color: turquoise;
+  color: blue;
+  padding: 5px;
+}
+
+.first {
+  color: red;
+}
+
+.second {
+  color: black;
+}
+
+#firstID {
+  color: yellow;
+}
