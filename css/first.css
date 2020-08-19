@@ -5,14 +5,28 @@ header {
   padding: 5px;
 }
 
+h1 .inside {
+  color: grey;
+}
+h1 .inside .double-inside {
+  color: blue;
+}
+
+#faruk h2 {
+  color: purple;
+}
 .first {
   color: red;
 }
 
 .second {
-  color: black;
+  color: green;
 }
 
 #firstID {
   color: yellow;
+}
+
+#inside strong.a {
+  color: blue;
 }
