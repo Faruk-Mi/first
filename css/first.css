@@ -3,17 +3,23 @@ header {
   background-color: turquoise;
   color: blue;
   padding: 5px;
+  border: 10px solid teal;
+  margin: 10px;
 }
 
-h1 .inside {
+header .inside {
   color: grey;
 }
-h1 .inside .double-inside {
+header .inside .month {
   color: blue;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
 #faruk h2 {
-  color: purple;
+  color: blue;
 }
 .first {
   color: red;
@@ -29,4 +35,19 @@ h1 .inside .double-inside {
 
 #inside strong.a {
   color: blue;
+}
+
+input:required {
+  border: 2px solid blue;
+}
+
+.arsenal {
+  position: fixed;
+  width: 202.7vh;
+  top: 0%;
+}
+
+.rosicky {
+  position: relative;
+  top: 140px;
 }
