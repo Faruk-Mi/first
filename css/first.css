@@ -45,6 +45,7 @@ input:required {
   position: fixed;
   width: 202.7vh;
   top: 0%;
+  z-index: 1000;
 }
 
 .rosicky {
