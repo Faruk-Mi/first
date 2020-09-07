@@ -25,6 +25,15 @@ a:hover {
   color: red;
 }
 
+.okay {
+  list-style: none;
+  display: flex;
+}
+
+.okay-1 {
+  flex-grow: 5;
+}
+
 .second {
   color: green;
 }
