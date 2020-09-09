@@ -1,47 +1,62 @@
-/* Write an object that consists from these key-value pairs:
-k: name v: your name
-k: age v: your age
-k: address v: your address (as Object) --> k: street v: your street name k: number v: your street number k: city v: your city
-*/
-let aboutME = { name: "Faruk", age: 26, address: { street: "Pere Toshev" } };
+// /* Write an object that consists from these key-value pairs:
+// k: name v: your name
+// k: age v: your age
+// k: address v: your address (as Object) --> k: street v: your street name k: number v: your street number k: city v: your city
+// */
 
-/* Write few arrays that consists of these elements:
-1. list of numbers from 1 to 10
-2. list of names
-3. mixed content
-*/
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let names = ["Furkan", "Fatih", "Omer"];
-let mixed = [15, "Kemal", "Visar"];
+// let aboutME = {
+//   name: "Faruk",
+//   age: 26,
+//   address: { street: "Pere Toshev", number: 2 },
+// };
 
-/* Assign the created object and array to new variables. 
-Then try to change some values inside this newly created complex data structures with this sintax:
+// /* Write few arrays that consists of these elements:
+// 1. list of numbers from 1 to 10
+// 2. list of names
+// 3. mixed content
+// */
 
-    For the object:
-    NewObject.property = some value; (NewObject is the newly created object after the assignment expression)
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let names = ["Furkan", "Fatih", "Omer"];
+// let mixed = ["15", "Kemal", "Visar"];
 
-    For the array:
-    NewArray[index] = some value; (NewArray is the newly created array after the assignment expression)
+// /* Assign the created object and array to new variables.
+// Then try to change some values inside this newly created complex data structures with this sintax:
 
-*/
-let newObject = new Object();
-let newArray = new Array();
-newObject.aboutME = "Furkan";
-newArray.names = "Besim";
+//     For the object:
+//     NewObject.property = some value; (NewObject is the newly created object after the assignment expression)
 
-/* Expected results */
-//console.log(OriginalObject) --> ?
-//console.log(OriginalArrray) --> ?
-//console.log(NewObject) --> ?
-//console.log(NewArray) --> ?
+//     For the array:
+//     NewArray[index] = some value; (NewArray is the newly created array after the assignment expression)
 
-// Reassign reference type example
+// */
+// let newObject = new Object();
+// let newArray = new Array();
 
-/*
-let obj = { first: 'reference' };
-let obj2 = obj;
+// newObject = aboutME;
+// newArray = names;
 
-obj = { second: 'ref2' }
+// newObject.name = "Ardian";
+// newArray[0] = "Ammar";
 
-console.log(obj2) --> ?
-*/
+// /* Expected results */
+// //console.log(OriginalObject) --> ?
+// //console.log(OriginalArrray) --> ?
+// //console.log(NewObject) --> ?
+// //console.log(NewArray) --> ?
+
+// console.log(aboutME);
+// console.log(names);
+// console.log(newObject);
+// console.log(newArray);
+
+// // Reassign reference type example
+
+// /*
+// let obj = { first: 'reference' };
+// let obj2 = obj;
+
+// obj = { second: 'ref2' }
+
+// console.log(obj2) --> ?
+// */
