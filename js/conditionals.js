@@ -2,14 +2,15 @@
 and if they are it will log their sum, and if only one of those is not assigned a value it will
 log "Sorry, you are missing at least one value"
 */
-// let a = 7;
-// let b = 5;
 
-// if (a <= b) {
-//   console.log(a + b);
-// } else {
-//   console.log("Sorry, you are missing at least one value");
-// }
+//  let a = 7;
+//  let b = 5;
+
+//  if (a <= b) {
+//  console.log(a + b);
+//  } else {
+//    console.log("Sorry, you are missing at least one value");
+//  }
 
 /* Write a program which is very similar to the first just instead of the if-else structure use
 if-elseif-else structure
@@ -23,7 +24,7 @@ if (f >= (g && h)) {
 } else if ((g = f || h)) {
   console.log(f + (g * h - g));
 } else {
-  console.log(f + (g * h - h));
+  console.log(f + (g + h - h));
 }
 
 /* Write similar program to the first one, but instead using the if-else statement use switch statement
