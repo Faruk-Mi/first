@@ -28,6 +28,15 @@ a:hover {
   color: red;
 }
 
+.okay {
+  list-style: none;
+  display: flex;
+}
+
+.okay-1 {
+  flex-grow: 5;
+}
+
 .second {
   color: green;
 }
@@ -48,8 +57,12 @@ input:required {
   position: fixed;
   /* width: 1852px; */
   top: 0%;
+<<<<<<< HEAD
   right: 0%;
   left: 0%;
+=======
+  z-index: 1000;
+>>>>>>> 0b1f1cdd35448f6037ece7d07ec18b15da475d7f
 }
 
 .rosicky {
