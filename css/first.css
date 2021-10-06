@@ -1,25 +1,28 @@
 header {
   text-align: center;
   background-color: turquoise;
-  color: blue;
+  color: teal;
   padding: 5px;
   border: 10px solid teal;
   margin: 10px;
 }
 
-header .inside {
-  color: grey;
+header .inside:hover {
+  color: red;
+  cursor: pointer;
 }
 header .inside .month {
-  color: blue;
+  color: teal;
 }
-
+body {
+  background: lightblue;
+}
 a:hover {
   font-weight: bold;
 }
 
 #faruk h2 {
-  color: blue;
+  color: teal;
 }
 .first {
   color: red;
@@ -43,8 +46,10 @@ input:required {
 
 .arsenal {
   position: fixed;
-  width: 202.7vh;
+  /* width: 1852px; */
   top: 0%;
+  right: 0%;
+  left: 0%;
 }
 
 .rosicky {
