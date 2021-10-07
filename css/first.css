@@ -17,6 +17,10 @@ header .inside .month {
 body {
   background: lightblue;
 }
+
+.faruk-img {
+  margin: 15px;
+}
 a:hover {
   font-weight: bold;
 }
@@ -53,19 +57,28 @@ input:required {
   border: 2px solid blue;
 }
 
-.arsenal {
+#arsenal {
   position: fixed;
-  /* width: 1852px; */
+  width: 99%;
+  height: auto;
+  margin: 10px;
   top: 0%;
-<<<<<<< HEAD
-  right: 0%;
-  left: 0%;
-=======
-  z-index: 1000;
->>>>>>> 0b1f1cdd35448f6037ece7d07ec18b15da475d7f
+  z-index: 1;
 }
 
 .rosicky {
   position: relative;
-  top: 140px;
+  top: 50px;
+}
+
+audio::-webkit-media-controls-panel {
+  background: teal;
+}
+
+#faruk span {
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  top: 5px;
 }
